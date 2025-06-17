@@ -30,7 +30,7 @@ public class VisitPage {
 
     }
     public void navigateToUrl(){
-        driver.get(data.get("baseUrl"));
+        driver.get(data.get("baseUrl")); 
         System.out.println(driver.getTitle());
 
     }
